@@ -1,0 +1,5 @@
+<library path="urXe_driver_crospi">
+  <class type="etasl::urXe_driver_crospi" base_class_type="etasl::RobotDriver">
+    <description>This is a plugin driver for etasl for the UR10e robot.</description>
+  </class>
+</library>

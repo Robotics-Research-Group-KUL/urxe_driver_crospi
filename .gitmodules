@@ -1,0 +1,3 @@
+[submodule "external/ur_rtde"]
+	path = external/ur_rtde
+	url = https://gitlab.com/sdurobotics/ur_rtde.git

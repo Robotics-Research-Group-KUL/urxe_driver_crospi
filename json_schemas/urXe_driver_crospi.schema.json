@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema",
+    "$id":"urXe_driver_crospi.json",
+    "type":"object",
+    "properties":{
+        "is-urXe_driver_crospi" : {
+            "description":"To indicate that the task will be executed using a ur5e robot.",
+            "type":"boolean",
+            "const":true
+        }
+    },
+    "required":["is-urXe_driver_crospi"],
+    "additionalProperties": true,
+    "dependencies":{
+        "is-urXe_driver_crospi":{
+          "required":["ip_address", "periodicity","q_acceleration"],
+          "properties":{
+                "ip_address" : {
+                    "description":"IP address of the robot using Ipv4 format.",
+                    "type":"string",
+                    "pattern": "^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])$",
+                    "default": "192.168.1.1"
+                },
+                "periodicity" : {
+                    "description":"Periodicity in which the integration will be performed in seconds. 1/periodicity is the update frequency in Hz.",
+                    "type":"number",
+                    "default": 0.01
+                },
+                "q_acceleration" : {
+                    "description":"Acceleration of leading joint [rad/s^2]",
+                    "type":"number",
+                    "default": 1.2
+                },
+                "alpha" : {
+                    "description":"Filtering factor wrench (EMA)",
+                    "type":"number",
+                    "default": 1.0
+                },
+                "name_expr_cartesian_wrench" : {
+                    "description":"Name of the expression that will be used to put the joint torques coming from this driver. This name can be then used in etasl with selected_name = ctx:createInputChannelWrench('selected_name')",
+                    "type":"string",
+                    "default": "task_frame_wrench"
+                }
+          }
+        }
+      }
+}

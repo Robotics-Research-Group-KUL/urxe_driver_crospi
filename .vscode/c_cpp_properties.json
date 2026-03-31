@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/santiregui/ros2_ws/install/yasmin_viewer/include/**",
+        "/home/santiregui/ros2_ws/install/yasmin_ros/include/**",
+        "/home/santiregui/ros2_ws/install/yasmin_msgs/include/**",
+        "/home/santiregui/ros2_ws/install/yasmin_action_interfaces/include/**",
+        "/home/santiregui/ros2_ws/install/yasmin/include/**",
+        "/home/santiregui/ros2_ws/install/ur10_e_driver_etasl/include/**",
+        "/home/santiregui/ros2_ws/install/template_driver_etasl/include/**",
+        "/home/santiregui/ros2_ws/install/spacenav/include/**",
+        "/home/santiregui/ros2_ws/install/simple_node/include/**",
+        "/home/santiregui/ros2_ws/install/kuka_iiwa_driver/include/**",
+        "/home/santiregui/ros2_ws/install/examples_rclcpp_cbg_executor/include/**",
+        "/home/santiregui/ros2_ws/install/etasl_ros2/include/**",
+        "/home/santiregui/ros2_ws/install/etasl_interfaces/include/**",
+        "/home/santiregui/ros2_ws/install/betfsm_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/santiregui/ros2_ws/src/etasl_interfaces/include/**",
+        "/home/santiregui/ros2_ws/src/etasl_ros2/include/**",
+        "/home/santiregui/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/**",
+        "/home/santiregui/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/**",
+        "/home/santiregui/ros2_ws/src/examples/rclcpp/wait_set/include/**",
+        "/home/santiregui/ros2_ws/src/joystick_drivers/spacenav/include/**",
+        "/home/santiregui/ros2_ws/src/robot_drivers_etasl/kuka_iiwa_driver/include/**",
+        "/home/santiregui/ros2_ws/src/robot_drivers_etasl/low_level_interfacing_autonox/include/**",
+        "/home/santiregui/ros2_ws/src/robot_drivers_etasl/template_driver_etasl/include/**",
+        "/home/santiregui/ros2_ws/src/robot_drivers_etasl/ur10_e_driver_etasl/include/**",
+        "/home/santiregui/ros2_ws/src/simple_node/simple_node/include/**",
+        "/home/santiregui/ros2_ws/src/yasmin/yasmin/include/**",
+        "/home/santiregui/ros2_ws/src/yasmin/yasmin_ros/include/**",
+        "/home/santiregui/ros2_ws/src/yasmin/yasmin_viewer/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
