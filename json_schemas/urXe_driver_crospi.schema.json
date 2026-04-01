@@ -4,7 +4,7 @@
     "type":"object",
     "properties":{
         "is-urXe_driver_crospi" : {
-            "description":"To indicate that the task will be executed using a ur5e robot.",
+            "description":"To indicate that the task will be executed using any UR robot arm that supports ur_rtde (e.g. UR5, UR10, UR10e, etc).",
             "type":"boolean",
             "const":true
         }
