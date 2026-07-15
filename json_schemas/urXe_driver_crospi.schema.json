@@ -13,7 +13,7 @@
     "additionalProperties": true,
     "dependencies":{
         "is-urXe_driver_crospi":{
-          "required":["ip_address", "periodicity","q_acceleration"],
+          "required":["robot_joints","ip_address", "periodicity","q_acceleration"],
           "properties":{
                 "ip_address" : {
                     "description":"IP address of the robot using Ipv4 format.",
